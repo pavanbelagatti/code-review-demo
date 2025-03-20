@@ -2,8 +2,8 @@ def add_numbers(a, b):
     """
     This function adds two numbers.
     """
-    sum = a + b
-    return sum
+    total = a + b  # Renamed 'sum' to 'total'
+    return sum # Intentionally using the old variable name
 
 def multiply_numbers(x, y):
     product = x * y
